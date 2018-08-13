@@ -1,0 +1,31 @@
+.resume {
+  margin: 100px 75px 0 75px;
+
+}
+
+.resume a {
+  font-family: serif;
+  color: black;
+}
+
+.resume-header {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 40px 0 0 0;
+}
+
+p {
+  font-style: italic;
+}

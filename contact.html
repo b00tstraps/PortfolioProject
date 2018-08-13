@@ -1,46 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="shortcut icon" href="shortcut image">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="shared.css">
-    <link rel="javascript" href="contact.js">
+    <link rel="shortcut icon" href="images/kyle_photo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
   </head>
   <body>
-    <header class="header">
-      <div class="portfolio-pic"><!-- insert photo of myself -->
-        <a href="index.html">
-          <img src="personalphotolink" alt="Kyle Lunn">
-        </a>
-      </div>
-      <nav class="nav-bar">
-        <ul class="nav-bar__items">
-          <li class="nav-bar__item">
-            <div>
-            <a href="bio.html"><div>Bio</div></a>
-            </div>
-          </li>
-          <li class="nav-bar__item">
-            <div>
-            <a href="resume.html"><div>Resumé</div></a>
-            </div>
-          </li>
-          <li class="nav-bar__item">
-            <div>
-            <a href="gallery.html"><div>Gallery</div></a>
-            </div>
-          </li>
-          <li class="nav-bar__item">
-            <div>
-            <a href="contact.html"><div>Contact</div></a>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
-    <footer></footer>
+    <div id="container">
+      <header>
+        <div class="portfolio-pic">
+          <a href="index.html">
+            <img src="images/kyle_photo.png" alt="Kyle Lunn">
+          </a>
+        </div>
+        <nav class="nav-bar">
+          <ul class="nav-bar__items">
+            <li class="nav-bar__item">
+              <div>
+              <a href="bio.html"><div>Bio</div></a>
+              </div>
+            </li>
+            <li class="nav-bar__item">
+              <div>
+              <a href="resume.html"><div>Resumé</div></a>
+              </div>
+            </li>
+            <li class="nav-bar__item">
+              <div>
+              <a href="gallery.html"><div>Gallery</div></a>
+              </div>
+            </li>
+            <li class="nav-bar__item">
+              <div>
+              <a href="contact.html"><div>Contact</div></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="contact-form">
+          <form>
+            First Name:<br>
+            <input type="text" name="fname" id="fname"><br>
+            Last Name:<br>
+            <input type="text" name="lname" id="lname"><br>
+            E-mail:<br>
+            <input type="text" name="email" id="email"><br>
+            Phone:<br>
+            <input type="text" name="phone" id="phone"><br>
+            Company:<br>
+            <input type="text" name="company" id="company"><br>
+            Questions/Comments:<br>
+            <input type="text" name="comments" id="comments"><br>
+            <input type="submit" value="Send">
+          </form>
+        </div>
+      </main>
+      <footer>
+        <nav>
+          <ul class="social-links">
+            <li class="social-link"><a href="https://www.facebook.com/kdlunn">Facebook</a></li>
+            <li class="social-link"><a href="https://www.linkedin.com/in/kyle-lunn-55777ab9">LinkedIn</a></li>
+            <li class="social-link"><a href="http://road2hire.org/">Road2Hire</a></li>
+            <li class="social-link"><a href="https://github.com/b00tstraps">GitHub</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script src="scripts/contact.js"></script>
+    </div>
   </body>
 </html>

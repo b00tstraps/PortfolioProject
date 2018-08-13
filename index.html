@@ -1,60 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Kyle Lunn's Portfolio</title>
-    <link rel="shortcut icon" href="shortcut image">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/kyle_photo.png">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="header">
-      <div class="portfolio-pic"><!-- insert photo of myself -->
-        <a href="index.html">
-          <img src="personalphotolink" alt="Kyle Lunn">
-        </a>
+    <div id="container">
+      <header>
+        <div class="portfolio-pic">
+          <a href="index.html">
+            <img src="images/kyle_photo.png" alt="Kyle Lunn">
+          </a>
+        </div>
+        <nav class="nav-bar">
+          <ul class="nav-bar__items">
+            <li class="nav-bar__item">
+              <div>
+              <a href="bio.html"><div>Bio</div></a>
+              </div>
+            </li>
+            <li class="nav-bar__item">
+              <div>
+              <a href="resume.html"><div>Resumé</div></a>
+              </div>
+            </li>
+            <li class="nav-bar__item">
+              <div>
+              <a href="gallery.html"><div>Gallery</div></a>
+              </div>
+            </li>
+            <li class="nav-bar__item">
+              <div>
+              <a href="contact.html"><div>Contact</div></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero">
+        <img src="images/background.jpg" alt="Background - Sunset Silhouette in the Florida Keys">
       </div>
-      <nav class="nav-bar">
-        <ul class="nav-bar__items">
-          <li class="nav-bar__item">
-            <div>
-            <a href="bio.html"><div>Bio</div></a>
-            </div>
-          </li>
-          <li class="nav-bar__item">
-            <div>
-            <a href="resume.html"><div>Resumé</div></a>
-            </div>
-          </li>
-          <li class="nav-bar__item">
-            <div>
-            <a href="gallery.html"><div>Gallery</div></a>
-            </div>
-          </li>
-          <li class="nav-bar__item">
-            <div>
-            <a href="contact.html"><div>Contact</div></a>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="content-box">
-        <h1 class="slider-title">Welcome.</h1>
-        <p>Welcome to my portfolio website. This page will be used to incorporate code I have learned in my web development journey.
-          Frequent updates will be made to the styling and positioning of elements to create a more desireable look.
-          Feel free to "view source" and leave me feedback using the contact button!</p>
-      </div>
-    </main>
-    <footer class="footer">
-      <nav>
-        <ul class="social-links">
-          <li class="social-link">Facebook</li>
-          <li class="social-link">LinkedIn</li>
-          <li class="social-link">Road2Hire</li>
-          <li class="social-link">GitHub</li>
-        </ul>
-      </nav>
-    </footer>
+      <main>
+        <section>
+          <h1 class="slider-title">Welcome.</h1>
+              <p>Welcome to my portfolio website. This page will be used to incorporate coding languages I have learned in the ITA.
+              Frequent updates will be made to the styling and positioning of elements to create a more desireable look. Additional functionality will be added as I learn more about .js/jQuery.
+              Don't hesitate to "view source" and leave me feedback using the contact button!</p>
+        </section>
+        <section>
+          <h1 class="slider-title">Bio.</h1>
+            <p>This page will tell you a little bit about myself and those I care about.</p>
+        </section>
+        <section>
+          <h1 class="slider-title">Resumè.</h1>
+            <p>You can find my detailed education/work history here.</p>
+        </section>
+        <section>
+          <h1 class="slider-title">Gallery.</h1>
+            <p>Interesting photos from throughout the year, showcasing the different seasons and people in my life.</p>
+        </section>
+        <section>
+          <h1 class="slider-title">Contact.</h1>
+          <p>Leave me some feedback on this page! And make sure to fill out ALL forms fields completely!</p>
+        </section>
+      </main>
+      <footer>
+        <nav>
+          <ul class="social-links">
+            <li class="social-link"><a href="https://www.facebook.com/kdlunn">Facebook</a></li>
+            <li class="social-link"><a href="https://www.linkedin.com/in/kyle-lunn-55777ab9">LinkedIn</a></li>
+            <li class="social-link"><a href="http://road2hire.org/">Road2Hire</a></li>
+            <li class="social-link"><a href="https://github.com/b00tstraps">GitHub</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
