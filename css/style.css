@@ -22,32 +22,29 @@ a {
   font-family: sans-serif;
 }
 
-.hero {
-  padding-top: 45px;
-  max-height: 900px;
+#hero {
+  background: url("../images/background.jpg") center/cover no-repeat border-box;
+  width: 100vw;
+  height: 40vw;
+  margin-top: 70px;
   overflow: hidden;
   position: relative;
 }
 
-.hero img {
-  max-width: 100%;
-  height: auto;
-  width: auto;
-}
-
-.hero > h1 {
-  position: absolute;
-  z-index: 0;
+.portfolio-pic {
+  height: 4.5rem;
 }
 
 .portfolio-pic img {
-  max-height: 4.5rem;
+  max-height: 100%;
   vertical-align: bottom;
 }
 
 header {
+  display: flex;
   position: fixed;
   background: black;
+  height: 4.5rem;
   width: 100%;
   top: 0;
   left: 0;
@@ -59,16 +56,29 @@ header > div {
   vertical-align: middle;
 }
 
+.welcome-sections {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
 .nav-bar {
   display: inline-block;
-  vertical-align: middle;
   text-align: right;
-  width: calc(100% - 120px);
+  width: calc(100% - 60px);
 }
 
 .nav-bar__items {
+  margin: 0;
   list-style: none;
   padding: 0;
+}
+
+@media (min-width: 40rem) {
+ .nav-bar__items {
+   margin: 1.75rem 0;
+   height: 2.75rem;
+ }
 }
 
 .nav-bar__item {
@@ -102,10 +112,6 @@ header > div {
   margin-top: 4rem;
   color: black;
   z-index: 1;
-}
-
-.content-box p {
-
 }
 
 footer {

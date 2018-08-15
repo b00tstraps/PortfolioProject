@@ -1,12 +1,12 @@
 .gallery {
-  margin: 100px 0 25px 0;
+  margin: 6.25rem 2rem 1.5rem 2rem;
   position: relative;
   color: red;
 }
 
 .slideshow-image {
   margin: auto;
-  width: 75%;
+  width: 100%;
   background: black;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.7);
 }
@@ -14,7 +14,7 @@
 .image-container {
   width: 75%;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 3rem;
 }
 
 .image-container img {

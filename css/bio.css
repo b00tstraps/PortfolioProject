@@ -1,5 +1,8 @@
+div {
+  height: 100vh;
+}
+
 p {
-  margin: 100px 75px 0 75px;
-  padding: 25px;
+  margin: 6.5rem 2rem;
   text-indent: 5%;
 }
