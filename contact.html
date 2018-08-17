@@ -12,30 +12,30 @@
     <div id="container">
       <header>
         <div class="portfolio-pic">
-          <a href="index.html">
-            <img src="images/kyle_photo.png" alt="Kyle Lunn">
+          <a href="index.html"  title="Home">
+            <img src="images/kyle_photo.png" alt="Picture of Kyle Lunn">
           </a>
         </div>
         <nav class="nav-bar">
           <ul class="nav-bar__items">
             <li class="nav-bar__item">
               <div>
-              <a href="bio.html"><div>Bio</div></a>
+              <a href="bio.html" title="Go to bio page"><div>Bio</div></a>
               </div>
             </li>
             <li class="nav-bar__item">
               <div>
-              <a href="resume.html"><div>Resumé</div></a>
+              <a href="resume.html" title="Go to resumè page"><div>Resumé</div></a>
               </div>
             </li>
             <li class="nav-bar__item">
               <div>
-              <a href="gallery.html"><div>Gallery</div></a>
+              <a href="gallery.html" title="Go to gallery page"><div>Gallery</div></a>
               </div>
             </li>
             <li class="nav-bar__item">
               <div>
-              <a href="contact.html"><div>Contact</div></a>
+              <a href="contact.html" title="Go to contact page"><div>Contact</div></a>
               </div>
             </li>
           </ul>
@@ -43,30 +43,24 @@
       </header>
       <main>
         <div class="contact-form">
-          <form>
-            First Name:<br>
-            <input type="text" name="fname" id="fname"><br>
-            Last Name:<br>
-            <input type="text" name="lname" id="lname"><br>
-            E-mail:<br>
-            <input type="text" name="email" id="email"><br>
-            Phone:<br>
-            <input type="text" name="phone" id="phone"><br>
-            Company:<br>
-            <input type="text" name="company" id="company"><br>
-            Questions/Comments:<br>
-            <input type="text" name="comments" id="comments"><br>
-            <input type="submit" value="Send">
+          <form method="post" action="#" id="contactform">
+            <p><label for="first name">First Name: <input type="text" name="firstname" id="fname"></label></p>
+            <p><label for="last name">Last Name: <input type="text" name="lastname" id="lname"></label></p>
+            <p><label for="e-mail">E-mail: <input type="text" name="email" id="email"></label></p>
+            <p><label for="phone number">Phone: <input type="text" name="phone" id="phone"></label></p>
+            <p><label for="company">Company: <input type="text" name="company" id="company"></label></p>
+            <p><label for="questions and comments">Questions/Comments: <input type="text" name="comments" id="comments"></label><p>
+            <p><button type="submit">Submit</button></p>
           </form>
         </div>
       </main>
       <footer>
         <nav>
           <ul class="social-links">
-            <li class="social-link"><a href="https://www.facebook.com/kdlunn">Facebook</a></li>
-            <li class="social-link"><a href="https://www.linkedin.com/in/kyle-lunn-55777ab9">LinkedIn</a></li>
-            <li class="social-link"><a href="http://road2hire.org/">Road2Hire</a></li>
-            <li class="social-link"><a href="https://github.com/b00tstraps">GitHub</a></li>
+            <li class="social-link"><a href="https://www.facebook.com/kdlunn" title="Go to Kyle Lunn's Facebook profile">Facebook</a></li>
+            <li class="social-link"><a href="https://www.linkedin.com/in/kyle-lunn-55777ab9" title="Go to Kyle Lunn's LinkedIn profile">LinkedIn</a></li>
+            <li class="social-link"><a href="http://road2hire.org/" title="Go to Road Two Hire's website">Road2Hire</a></li>
+            <li class="social-link"><a href="https://github.com/b00tstraps" title="Go to Kyle Lunn's GitHub">GitHub</a></li>
           </ul>
         </nav>
       </footer>
