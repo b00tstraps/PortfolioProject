@@ -1,6 +1,7 @@
 .resume {
   margin: 1.2rem 0;
-
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
 }
 
 .resume a {
@@ -30,5 +31,6 @@ h3 {
 }
 
 p {
-  font-style: italic;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
 }
