@@ -107,11 +107,10 @@ header {
   font-size: 2rem;
 }
 
-.welcome-sections p,
-label,
+.resume,
 p,
-time,
-.resume {
+label,
+time {
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
 }
