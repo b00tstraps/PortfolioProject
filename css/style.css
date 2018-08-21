@@ -59,6 +59,7 @@ header {
   color: white;
   background: #33E0DA;
   border-radius: 5px 5px 5px 5px;
+  padding: 0px 0.5rem;
 }
 
 .nav-bar__item a {
@@ -89,7 +90,9 @@ header {
 }
 
 .nav-bar__item a:hover,
-.nav-bar__item a:active {
+.nav-bar__item a:active,
+.nav-bar__item:hover,
+.nav-bar__item:active {
   color: black;
   background: #474747;
   border-radius: 5px 5px 5px 5px;
