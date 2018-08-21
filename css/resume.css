@@ -1,36 +1,54 @@
 .resume {
-  margin: 1.2rem 0;
-  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 0px 45px;
   color: black;
+  background: white;
 }
 
 .resume a {
-  font-family: serif;
   color: black;
 }
 
-.resume-header {
+main {
+  margin: 6.25rem 2rem;
 }
 
-main {
-  margin: 4.5rem 2rem;
+.resume div {
+  padding: 30px 0;
 }
 
 h1 {
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 0;
 }
 
+h1 + p {
+  text-align: center;
+}
+
 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 0;
 }
 
 h3 {
-  margin: 40px 0 0 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 15px 0 0 0;
 }
 
-p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
+p, time {
+  color: black;
+  font-style: italic;
+}
+
+ul {
+  list-style: initial;
+}
+
+li {
+  margin-left: 30px;
 }

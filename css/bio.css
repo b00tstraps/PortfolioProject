@@ -1,9 +1,14 @@
-div {
-  height: 100vh;
+main {
+  margin: 6.5rem 2rem;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 2rem;
 }
 
 p {
-  margin: 6.5rem 2rem;
   text-indent: 5%;
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;

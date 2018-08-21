@@ -1,31 +1,18 @@
 /*add CSS reset*/
-
-body {
-  margin: 0;
-  height: 100%;
-  position: relative;
-}
-
 a {
   text-decoration: none;
 }
 
 #container {
-  min-height: 100vh;
-  position: relative;
   overflow: hidden;
-  display: block;
-  padding-bottom: 140px;
-  background-color: #474747;
+  background: #474747;
 }
 
 #hero {
   background: url("../images/background.jpg") center/cover no-repeat border-box;
   width: 100vw;
-  height: 40vw;
+  height: 35vw;
   margin-top: 70px;
-  overflow: hidden;
-  position: relative;
 }
 
 #home-button {
@@ -55,32 +42,6 @@ header {
   z-index: 1;
 }
 
-main {
-  background-color: #474747;
-}
-
-.welcome-sections {
-  display: flex;
-  flex-direction: column;
-  margin: 0 2rem;
-}
-
-.welcome-sections h1 {
-  font-family: 'Lobster', cursive;
-  color: white;
-  font-size: 2rem;
-}
-
-.welcome-sections p,
-label {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
-}
-
-section {
-  padding: 15px 0;
-}
-
 .nav-bar {
   position: relative;
   width: calc(100% - 72px);
@@ -101,14 +62,13 @@ section {
 }
 
 .nav-bar__item a {
-  font-family: 'Lobster', cursive;
   color: white;
   font-size: 1.5rem;
 }
 
 @media (min-width: 40rem) {
   .nav-bar__item a {
-    padding: 0px 32px;
+    padding: 0px 2rem;
     font-size: 1.5rem;
   }
 }
@@ -135,19 +95,39 @@ section {
   border-radius: 5px 5px 5px 5px;
 }
 
+.welcome-sections {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.welcome-sections h1 {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 2rem;
+}
+
+.welcome-sections p,
+label,
+p,
+time,
+.resume {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+section {
+  padding: 15px 0;
+}
+
 footer {
   position: relative;
-  padding: 40px;
-  width: 100%;
   height: 140px;
   background: black;
-  bottom: 0;
 }
 
 .social-links {
   position: absolute;
-  padding: 0;
-  text-align: center;
   top: 50%;
   right: 50%;
   transform: translate(50%, -70%);
@@ -163,5 +143,5 @@ footer {
   text-align: center;
   color: white;
   list-style: none;
-  padding: 0 16px;
+  padding: 0 2rem;
 }

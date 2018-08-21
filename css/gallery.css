@@ -1,6 +1,5 @@
 .gallery {
-  margin: 6.25rem 2rem 1.5rem 2rem;
-  position: relative;
+  margin: 6.25rem 2rem;
 }
 
 figure {
@@ -19,13 +18,12 @@ figure {
 
 .gallery-image {
   width: 100%;
-  vertical-align: top;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  /*vertical-align: top;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;*/
 }
 
 figcaption {
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
   text-align: center;
-  padding-bottom: 0.5rem;
 }
