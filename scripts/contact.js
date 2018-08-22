@@ -1,8 +1,8 @@
 $("form").submit(function(event) {
   event.preventDefault();
-  if ($('#fname').val() === "") {
+  if ($('#firstname').val() === "") {
       alert("Please enter a first name before sending.");
-    } else if ($('#lname').val() === "") {
+    } else if ($('#lastname').val() === "") {
       alert("Please enter a last name before sending.");
     } else if ($('#phone').val() === "") {
       alert("Please enter a phone number before sending.");

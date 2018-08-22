@@ -1,7 +1,11 @@
+#container {
+  height: 100vh;
+}
+
 #contactform {
   margin: 6.25rem 2rem;
 }
 
 input {
-  width: 40%;
+  width: 181px;
 }

@@ -4,7 +4,6 @@ a {
 }
 
 #container {
-  overflow: hidden;
   background: #474747;
 }
 
@@ -105,7 +104,7 @@ header {
   margin: 0 2rem;
 }
 
-.welcome-sections h1 {
+.welcome-sections h2 {
   font-family: 'Lobster', cursive;
   color: white;
   font-size: 2rem;
