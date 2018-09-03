@@ -1,19 +1,28 @@
 #container {
   height: 100vh;
+  position: relative;
 }
 
 main {
-  margin: 6.5rem 2rem;
+  margin: 4.5rem 2rem;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
   color: white;
   font-size: 2rem;
+  padding-top: 1rem;
 }
 
 p {
   text-indent: 5%;
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 140px;
 }
